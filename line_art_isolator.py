@@ -32,4 +32,5 @@ def remove_white_background(input_path, output_path, threshold=200):
 if __name__ == "__main__":
     input_path = "input.png"  # Change to path of your input image
     output_path = "output.png"  # Change to desired output path
+
     remove_white_background(input_path, output_path)
